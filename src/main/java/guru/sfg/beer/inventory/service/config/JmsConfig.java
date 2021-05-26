@@ -13,6 +13,7 @@ public class JmsConfig {
     public static final String BEER_SERVICE_QUEUE = "beer-service-queue";
     public static final String  ALLOCATE_ORDER = "allocate-order";
     public static final String  ALLOCATE_ORDER_RESULT = "allocate-order-result";
+    public static final String  CANCEL_ORDER = "cancel-order";
 
     @Bean
     public MappingJackson2MessageConverter messageConverter(ObjectMapper objectMapper) {
